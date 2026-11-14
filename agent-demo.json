@@ -1,0 +1,20 @@
+{
+  "agents": [
+    {
+      "name": "collector",
+      "role": "资料搜集员",
+      "prompt": "搜集题目相关信息，整理要点，简洁输出"
+    },
+    {
+      "name": "writer",
+      "role": "文稿撰写员",
+      "prompt": "根据搜集到的要点，写成通顺完整的回答"
+    },
+    {
+      "name": "checker",
+      "role": "校验审核员",
+      "prompt": "检查文稿有没有错误，修正漏洞"
+    }
+  ],
+  "flow": ["collector", "writer", "checker"]
+}
